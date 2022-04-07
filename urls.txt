@@ -1,0 +1,51 @@
+----------------------------------------------------------------
+
+--starting page--
+
+172.22.129.8/client-svc/apps/index/health-declaration-form.php
+
+----------------------------------------------------------------
+
+--members--
+
+172.22.129.8/client-svc/apps/index/payment_service.php
+
+--for payments-- (partially done yet)
+
+172.22.129.8/client-svc/apps/member/payments/pin.php
+172.22.129.8/client-svc/apps/member/payments/contributions.php
+
+--for transactions/requests-- (member)
+
+172.22.129.8/client-svc/apps/member/services/pin.php
+172.22.129.8/client-svc/apps/member/services/member.php
+172.22.129.8/client-svc/apps/member/services/transaction-done.php
+172.22.129.8/client-svc/apps/member/services/gen-queue.php
+
+--for transactions/requests-- (new member)
+
+172.22.129.8/client-svc/apps/member/services/non-member.php
+172.22.129.8/client-svc/apps/member/services/transaction-done.php
+172.22.129.8/client-svc/apps/member/services/gen-queue.php
+
+172.22.129.8/client-svc/apps/member/services/pin-lookup.php
+
+----------------------------------------------------------------
+
+--employers--
+
+172.22.129.8/client-svc/apps/employer/ein.php
+172.22.129.8/client-svc/apps/employer/member.php
+172.22.129.8/client-svc/apps/employer/transaction-done.php
+172.22.129.8/client-svc/apps/employer/gen-queue.php
+
+172.22.129.8/client-svc/apps/employer/ein-lookup.php
+
+----------------------------------------------------------------
+
+--admin--
+
+172.22.129.8/client-svc/apps/admin/login.php
+172.22.129.8/client-svc/apps/admin/transactions.php
+172.22.129.8/client-svc/apps/admin/change_password.php
+172.22.129.8/client-svc/apps/admin/logout.php
